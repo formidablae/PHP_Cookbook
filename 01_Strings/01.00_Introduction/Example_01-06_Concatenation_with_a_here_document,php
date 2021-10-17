@@ -1,0 +1,14 @@
+<?php
+    $listItem = "Some item";
+    $divClass = "The div class";
+    $ulClass = "The ul class";
+
+    $html = <<< END
+        <div class="$divClass">
+            <ul class=""$ulClass">
+                <li>
+    END
+    . $listItem . '</li></div>';
+
+    print $html
+?>
